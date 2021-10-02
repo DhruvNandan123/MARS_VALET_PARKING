@@ -1,0 +1,47 @@
+<html>
+
+<head>
+    <title>MARS ROVER PARKING</title>
+    <style>
+        body {
+            background-image: url("mars\ BG.jpg");
+            background-position: center;
+            background-size: cover;
+        }
+
+        #myCanvas {
+            border-width: 10px;
+            background-color: thistle;
+            border-style: double;
+        }
+
+        h1,
+        h4 {
+            color: white !important;
+        }
+
+        b {
+            color: blue;
+        }
+    </style>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+
+<body onload="add()">
+    <center>
+        <h1 class="btn btn-primary">MARS ROVER PARKING
+        </h1>
+        <h4>
+            <b class="btn btn-danger"> NOTE :</b> IF ROVER IS NOT VISIBLE PRESS ANY ARROW KEY .
+        </h4>
+         <canvas id="myCanvas" width="800" height="600"></canvas>
+    <br>
+    <br>
+    </center>
+   
+    <script src="main.js"></script>
+</body>
+
+</html>
